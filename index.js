@@ -229,21 +229,21 @@ const shortcuts = [
 	
 	
 	{
-  name: "Morning Vibes",
+  name: "Subscription Guard",
   category: "utility",
-  icon: "fa-musix",
-  description: "Morning Vibes is the shortcut that you can automate in the morning the tells you about Day, Time, Wearher ETC..",
-		downloads: "5,032",
+  icon: "fa-card",
+  description: "Subscription Guard will alert you before your plan gets renew. It reminds about your subscription plan before 2 days.",
+				downloads: "7,939",
   ios: "iOS 17+",
-  id: "Morning-Vibes",
-  link: "https://www.icloud.com/shortcuts/01d3e185f7164094a8f8ee7f34f1ca61"
+  id: "Sub-Guard",
+  link: "https://www.icloud.com/shortcuts/c960ca10db87498f860bd1a4aa60170d"
 },
 
 	
 	{
   name: "Morning Vibes",
   category: "utility",
-  icon: "fa-musix",
+  icon: "fa-music",
   description: "Morning Vibes is the shortcut that you can automate in the morning the tells you about Day, Time, Wearher ETC..",
 		downloads: "5,032",
   ios: "iOS 17+",
