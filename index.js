@@ -219,13 +219,48 @@ let currentFilter = 'all';
 			
 			
 	// New Shortcuts Here------	
-	
+	// https://www.icloud.com/shortcuts/01d3e185f7164094a8f8ee7f34f1ca61
 		
 
 				
 			
 			
 const shortcuts = [
+	
+	
+	{
+  name: "Morning Vibes",
+  category: "utility",
+  icon: "fa-musix",
+  description: "Morning Vibes is the shortcut that you can automate in the morning the tells you about Day, Time, Wearher ETC..",
+		downloads: "5,032",
+  ios: "iOS 17+",
+  id: "Morning-Vibes",
+  link: "https://www.icloud.com/shortcuts/01d3e185f7164094a8f8ee7f34f1ca61"
+},
+
+	
+	{
+  name: "Morning Vibes",
+  category: "utility",
+  icon: "fa-musix",
+  description: "Morning Vibes is the shortcut that you can automate in the morning the tells you about Day, Time, Wearher ETC..",
+		downloads: "5,032",
+  ios: "iOS 17+",
+  id: "Morning-Vibes",
+  link: "https://www.icloud.com/shortcuts/01d3e185f7164094a8f8ee7f34f1ca61"
+},
+
+	{
+  name: "Text to audio maker",
+  category: "utility",
+  icon: "fa-musix",
+  description: "Convert your any text into audio playable sound and save it locally.",
+  downloads: "1,808",
+  ios: "iOS 17+",
+  id: "Text-To-Audio",
+  link: "https://www.icloud.com/shortcuts/f205d11bd51d4284b7fc090ebafddcec"
+},
 	
 	{
   name: "Url Shortner By TinyUrl",
