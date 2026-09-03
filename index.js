@@ -220,14 +220,24 @@ let currentFilter = 'all';
 			
 	// New Shortcuts Here------	
 	// https://www.icloud.com/shortcuts/01d3e185f7164094a8f8ee7f34f1ca61
-		
+	// qr toolkit : https://www.icloud.com/shortcuts/68e6d0efb1034d48bab8a421974cb782
 
 				
 			
 			
 const shortcuts = [
 	
-	
+	{
+  name: "QR ToolKit",
+  category: "utility",
+  icon: "fa-qr",
+  description: "QR ToolKit is the shortcut that allows you do create various of QR code and has ability of scan QR code.",
+		downloads: "5,038",
+  ios: "iOS 17+",
+  id: "QR-ToolKit",
+  link: "https://www.icloud.com/shortcuts/68e6d0efb1034d48bab8a421974cb782"
+},
+
 	{
   name: "Subscription Guard",
   category: "utility",
