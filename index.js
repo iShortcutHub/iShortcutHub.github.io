@@ -1,5 +1,5 @@
-
-			let currentFilter = 'all';
+// index.js
+let currentFilter = 'all';
 			let itemsPerBatch = 9;
 			let visibleLimit = 9;
 
@@ -216,3 +216,103 @@
 			        loadMoreBtn.style.display = 'none';
 			    }
 			}
+			
+			
+	// New Shortcuts Here------	
+	
+		
+
+				
+			
+			
+const shortcuts = [
+	
+	{
+  name: "Url Shortner By TinyUrl",
+  category: "social",
+  icon: "fa-url",
+  description: "Turn your long URLs into short URL using this tinyurl shortcut , Which is quick and easy.",
+  downloads: "300",
+  ios: "iOS 17+",
+  id: "Url-shortner",
+  link: "https://www.icloud.com/shortcuts/7a766f4d37a84f16ba2db68c306f9ee1"
+},
+  {
+    name: "Image Compressor",
+    category: "utility",
+    icon: "fa-image",
+    description: "You can compress your image easily using this shortcut and It will properly compress your image.",
+	downloads: "1,003",
+    ios: "iOS 18+",
+    id: "Image-Compressor",
+    link: "https://www.icloud.com/shortcuts/5e5743c53f63406fb584ee89a79e0003"
+  },
+
+  {
+    name: "Until Full Charge",
+    category: "utility",
+    icon: "fa-battery",
+    description: "You can view your battery status using this shortcut and You also automate the shortcut using when charger is connected automation.",downloads: "1,850",
+    ios: "iOS 18+",
+    id: "Until-Full-Charge",
+    link: "https://www.icloud.com/shortcuts/effda41188b448f5a999577077df1866"
+  }
+];
+
+document.getElementById("shortcut-list").innerHTML = shortcuts.map(s => `
+  <div
+    class="shortcut-card bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 shadow-sm hover:shadow-xl transition flex flex-col justify-between"
+    data-category="${s.category}"
+    data-name="${s.name}"
+  >
+    <div>
+      <div class="flex items-center justify-between mb-4">
+        <div class="w-12 h-12 rounded-xl bg-violet-50 dark:bg-violet-950 text-violet-600 flex items-center justify-center text-xl">
+          <i class="fa-solid ${s.icon}"></i>
+        </div>
+
+        <button onclick="toggleFavorite(this, '${s.name}')"
+          class="text-slate-300 dark:text-slate-600 hover:text-amber-400 text-xl transition">
+          <i class="fa-solid fa-star"></i>
+        </button>
+      </div>
+
+      <div class="flex items-center space-x-2 mb-1">
+        <h3 class="text-lg font-bold">${s.name}</h3>
+        <i class="fa-solid fa-circle-check text-blue-500 text-xs" title="Verified Safe"></i>
+      </div>
+
+      <p class="text-sm text-slate-500 dark:text-slate-400 mb-6 leading-relaxed">
+        ${s.description}
+      </p>
+    </div>
+
+    <div>
+      <div class="flex items-center justify-between text-xs text-slate-400 mb-4 bg-slate-50 dark:bg-slate-800/50 p-2.5 rounded-xl">
+        <span>
+          <i class="fa-solid fa-download mr-1"></i>
+          <b class="download-count" data-id="${s.id}">${s.downloads}</b>
+          downloads
+        </span>
+        <span class="text-emerald-500 font-medium">${s.ios}</span>
+      </div>
+
+      <div class="grid grid-cols-2 gap-2">
+        <button
+          onclick='trackViewAndAction("${s.name}", "${s.link}", "${s.id}")'
+          class="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2.5 px-4 rounded-xl text-sm transition text-center shadow-lg shadow-blue-500/20">
+          Install
+        </button>
+
+        <button
+          onclick="copyLink('${s.link}')"
+          class="bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-700 dark:text-slate-300 font-medium py-2.5 px-4 rounded-xl text-sm transition text-center">
+          Copy Link
+        </button>
+      </div>
+    </div>
+  </div>
+`).join("");
+			
+			
+			
