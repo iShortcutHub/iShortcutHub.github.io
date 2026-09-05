@@ -221,11 +221,23 @@ let currentFilter = 'all';
 	// New Shortcuts Here------	
 	// https://www.icloud.com/shortcuts/01d3e185f7164094a8f8ee7f34f1ca61
 	// qr toolkit : https://www.icloud.com/shortcuts/68e6d0efb1034d48bab8a421974cb782
+// https://www.icloud.com/shortcuts/7e194413c6fd4b81a5a3c5a631859efe
 
 				
 			
 			
 const shortcuts = [
+	
+	{
+  name: "Charging Mode",
+  category: "utility",
+  icon: "fa-charge",
+  description: "⚡Charging Mode - A simple iPhone Shortcut that optimizes your device while charging by reducing brightness, lowering volume, enabling Low Power Mode, and activating Do Not Disturb. Tap it again to return to your normal settings.",
+		downloads: "15,012",
+  ios: "iOS 17+",
+  id: "Charging-mode",
+  link: "⚡ Charging Mode — A simple iPhone Shortcut that optimizes your device while charging by reducing brightness, lowering volume, enabling Low Power Mode, and activating Do Not Disturb. Tap it again to return to your normal settings."
+},
 	
 	{
   name: "QR ToolKit",
