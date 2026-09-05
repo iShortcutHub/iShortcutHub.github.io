@@ -236,8 +236,8 @@ const shortcuts = [
 		downloads: "15,012",
   ios: "iOS 17+",
   id: "Charging-mode",
-  link: "⚡ Charging Mode — A simple iPhone Shortcut that optimizes your device while charging by reducing brightness, lowering volume, enabling Low Power Mode, and activating Do Not Disturb. Tap it again to return to your normal settings."
-},
+  link: "https://www.icloud.com/shortcuts/7e194413c6fd4b81a5a3c5a631859efe"
+		},
 	
 	{
   name: "QR ToolKit",
